@@ -1,0 +1,27 @@
+{
+  "name": "penpen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abetomoka/penpen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abetomoka/penpen/issues"
+  },
+  "homepage": "https://github.com/abetomoka/penpen#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "postcss-cli": "^6.1.3"
+  },
+  "dependencies": {},
+  "description": ""
+}
