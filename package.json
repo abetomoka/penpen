@@ -20,7 +20,8 @@
     "watch/sass": "watch 'npm run css' src/assets/sass",
     "watch/img": "onchange src/assets/img -e '**/*.DS_Store' -- npm run img",
     "watch/ejs": "watch 'npm run ejs' src/assets/ejs",
-    "watch/server": "browser-sync start -s dist -f 'dist, !node_modules/**/*'"
+    "watch/server": "browser-sync start -s dist -f 'dist, !node_modules/**/*'",
+    "watch:pug2html": "pug src/assets/pug --hierarchy -o dist/ -w -P"
   },
   "repository": {
     "type": "git",
@@ -49,9 +50,14 @@
   "devDependencies": {
     "autoprefixer": "^9.7.3",
     "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
     "postcss-cli": "^6.1.3",
     "postcss-import": "^12.0.1",
-    "postcss-simple-vars": "^5.0.2"
+    "postcss-simple-vars": "^5.0.2",
+    "pug-cli": "github:pugjs/pug-cli#master"
   },
   "browserslist": [
     "last 2 versions",
