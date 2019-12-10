@@ -18,7 +18,7 @@
     "ejs": "ejs-cli --base-dir src/assets/ejs '**/*.ejs' --out dist",
     "s": "npm-run-all -p watch/*",
     "watch/sass": "watch 'npm run css' src/assets/sass",
-    "watch/img": "onchange src/assets/img -e '**/*.DS_Store' -- npm run img",
+    "watch/img": "onchange src/assets/images -e '**/*.DS_Store' -- npm run img",
     "watch/ejs": "watch 'npm run ejs' src/assets/ejs",
     "watch/server": "browser-sync start -s dist -f 'dist, !node_modules/**/*'",
     "watch:pug2html": "pug src/assets/pug --hierarchy -o dist/ -w -P"
