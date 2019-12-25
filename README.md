@@ -3,11 +3,11 @@
 ### パッケージのインストール
 
 ```
-$ npm install
+$ npm install  <-??
 ```
 
 ### 起動
 
 ```
-& npm run watch
+& npm run s
 ```
