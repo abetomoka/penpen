@@ -3,11 +3,22 @@ body {
   line-height: 1.7;
 }
 
+h1 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+
+a {
+  color: $black;
+}
+
 p {
   font-size: 14px;
   color: $black;
 }
 
-section {
-  height: 100vh;
+.main {
+  padding-top: 136px;
 }
